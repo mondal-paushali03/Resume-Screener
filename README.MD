@@ -35,7 +35,7 @@ Follow these steps to get started:
 ```bash
 # 1️⃣ Clone the repository
 git clone https://github.com/<your-username>/smart-resume-screener.git
-cd smart-resume-screener
+cd Resume-Screener
 
 # 2️⃣ Create a Python virtual environment
 python -m venv venv
@@ -52,3 +52,13 @@ pip install -r requirements.txt
 # ⚠️ If requirements.txt is missing, install manually and generate it
 # pip install Flask pdfplumber
 # pip freeze > requirements.txt
+
+🚀 Running the Application
+# 1️⃣ Start the Flask server
+python app.py
+
+# 2️⃣ Open your browser
+http://127.0.0.1:5000
+
+# 3️⃣ Upload a resume (PDF/TXT) and paste the job description
+# 4️⃣ Click "Analyze Resume" to see the human-readable screening report
